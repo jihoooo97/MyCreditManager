@@ -9,19 +9,6 @@ import Cocoa
 import Foundation
 
 extension String {
-
-    // 0 ~ 5 인지
-    func checkNumberValidate() -> Bool {
-        if let number = Int(self) {
-            return number >= 0 && number <= 5
-        }
-        return false
-    }
-    
-    // X, x 인지
-    func checkExit() -> Bool {
-        return self == "X" || self == "x"
-    }
     
     // 영문 인지
     func checkEnglish() -> Bool {
